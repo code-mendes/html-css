@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem de Fundo</title>
+    <title>Fundo fixo de Tela</title>
     <style>
         body {
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* ShortHand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 550px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +37,7 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur omnis, sapiente, earum nostrum optio nulla nisi a repellat mollitia culpa exercitationem? Qui sapiente voluptates culpa illo? Exercitationem quia praesentium alias!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ipsam soluta aliquam in modi omnis officiis quisquam maxime, eveniet rerum doloribus at dicta aperiam. Pariatur quis tenetur quia odio reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi in placeat at consectetur molestiae, obcaecati possimus fugit animi sit minus ipsum corporis incidunt, quis unde nam. Corrupti, eveniet deleniti.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur omnis, sapiente, earum nostrum optio nulla nisi a repellat mollitia culpa exercitationem? Qui sapiente voluptates culpa illo? Exercitationem quia praesentium alias!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ipsam soluta aliquam in modi omnis officiis quisquam maxime, eveniet rerum doloribus at dicta aperiam. Pariatur quis tenetur quia odio reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi in placeat at consectetur molestiae, obcaecati possimus fugit animi sit minus ipsum corporis incidunt, quis unde nam. Corrupti, eveniet deleniti.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur omnis, sapiente, earum nostrum optio nulla nisi a repellat mollitia culpa exercitationem? Qui sapiente voluptates culpa illo? Exercitationem quia praesentium alias!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ipsam soluta aliquam in modi omnis officiis quisquam maxime, eveniet rerum doloribus at dicta aperiam. Pariatur quis tenetur quia odio reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi in placeat at consectetur molestiae, obcaecati possimus fugit animi sit minus ipsum corporis incidunt, quis unde nam. Corrupti, eveniet deleniti.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur omnis, sapiente, earum nostrum optio nulla nisi a repellat mollitia culpa exercitationem? Qui sapiente voluptates culpa illo? Exercitationem quia praesentium alias!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ipsam soluta aliquam in modi omnis officiis quisquam maxime, eveniet rerum doloribus at dicta aperiam. Pariatur quis tenetur quia odio reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi in placeat at consectetur molestiae, obcaecati possimus fugit animi sit minus ipsum corporis incidunt, quis unde nam. Corrupti, eveniet deleniti.</p>
     </main>
 </body>
 </html>
